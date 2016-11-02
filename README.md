@@ -10,7 +10,6 @@ In python.
   > Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents. In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.
 
 ## example
-* text
 
 >美媒称，中国房地产市场已然过热。近月来，一些城市的房价同比涨幅高达两位数，而投资者尚未找到另一个收益上涨的市场。
 >美国《福布斯》双周刊10月11日一期刊登题为《中国房地产泡沫终于如期而至》的文章称，据中国国家统计局统计，全国70座大城市新建住房价格平均同比上涨9.2%，上海房价同比上涨了31.2%，二线城市厦门的房价一年来上涨了43.8%。针对这一情况，地方政府试图通过调控措施抑制房价过度上涨。
@@ -26,11 +25,11 @@ In python.
 
 * keywords (top 5)
 
-英镑兑美元汇率跌
-允许中国游客申请
-达成优惠交易
-英国脱欧英镑贬值
-享英伦礼遇
+>英镑兑美元汇率跌
+>允许中国游客申请
+>达成优惠交易
+>英国脱欧英镑贬值
+>享英伦礼遇
 
 ## to use
   You would need a tokenizing service through py4j in java, which can be one of the most popular tokenizer in Chinese word.eg.[中科院分词器](http://ictclas.nlpir.org/),[IK分词器](https://github.com/wks/ik-analyzer)
