@@ -1,6 +1,7 @@
 # rake_cn
 ---
 RAKE keyword extraction implentation in Chinese Language.
+
 In python.
 
 ## originate 
@@ -23,7 +24,7 @@ In python.
 >【相关图集】
 >揭秘房价崩溃后的日本：自杀破产集中爆发
 
-*keywords (top 5)
+* keywords (top 5)
 
 英镑兑美元汇率跌
 允许中国游客申请
@@ -32,16 +33,16 @@ In python.
 享英伦礼遇
 
 ## to use
-  you need a tokenizing service through py4j in java, which can be one of the most popular tokenizer in Chinese word.eg.[中科院分词器](http://ictclas.nlpir.org/),[IK分词器](https://github.com/wks/ik-analyzer)
+  You would need a tokenizing service through py4j in java, which can be one of the most popular tokenizer in Chinese word.eg.[中科院分词器](http://ictclas.nlpir.org/),[IK分词器](https://github.com/wks/ik-analyzer)
   
   
   or
   
-  you could have a python-implemented one with the specified interface defined in segment_service.py.
+  You could have a python-implemented one with the specified interface defined in segment_service.py.
   
   **Viewing demo in Ipython notebook**
 
 ## moderfications
   1. spliting sentence into phrase using non-real words (nature in ['m','d','ad','p','b','r','w','f','AMBIGUOUS'] ) ,in addition to words in stopwords list.
-  2. using hand-crafted rules to filter inappropriate words and to form keywords with desired nature combinations (could be improved)
+  2. using hand-crafted rules to filter inappropriate words and to form keywords with desired nature combinations (could be improved to better serve domain requirements)
   
