@@ -34,7 +34,6 @@ In python.
 ## to use
   You would need a tokenizing service through py4j in java, which can be one of the most popular tokenizer in Chinese word.eg.[中科院分词器](http://ictclas.nlpir.org/),[IK分词器](https://github.com/wks/ik-analyzer)
   
-  
   or
   
   You could have a python-implemented one with the specified interface defined in segment_service.py.
